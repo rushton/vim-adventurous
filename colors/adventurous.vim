@@ -58,22 +58,22 @@ if &t_Co >= 256 || has('gui_running')
 
     set background=dark
 
-    hi Comment           ctermbg=NONE ctermfg=59   guibg=NONE    guifg=#404449 cterm=NONE           gui=italic
+    hi Comment           ctermbg=NONE ctermfg=59   guibg=#404449 guifg=#191B1F cterm=NONE           gui=italic
     hi Constant          ctermbg=NONE ctermfg=32   guibg=NONE    guifg=#277BD3 cterm=NONE           gui=NONE
     hi Conditional       ctermbg=NONE ctermfg=214  guibg=NONE    guifg=#F5BB12 cterm=NONE           gui=NONE
     hi Number            ctermbg=NONE ctermfg=214  guibg=NONE    guifg=#F5BB12 cterm=NONE           gui=NONE
     hi Operator          ctermbg=NONE ctermfg=214  guibg=NONE    guifg=#F5BB12 cterm=NONE           gui=NONE
     hi Error             ctermbg=NONE ctermfg=203  guibg=NONE    guifg=#F25A55 cterm=reverse        gui=reverse
     hi Identifier        ctermbg=NONE ctermfg=32   guibg=NONE    guifg=#277BD3 cterm=NONE           gui=NONE
-    hi Ignore            ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE 
+    hi Ignore            ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
     hi PreProc           ctermbg=NONE ctermfg=214  guibg=NONE    guifg=#F5BB12 cterm=NONE           gui=NONE
     hi Special           ctermbg=NONE ctermfg=32   guibg=NONE    guifg=#277BD3 cterm=NONE           gui=NONE
     hi Statement         ctermbg=NONE ctermfg=203  guibg=NONE    guifg=#F25A55 cterm=NONE           gui=NONE
     hi String            ctermbg=NONE ctermfg=117  guibg=NONE    guifg=#7FD6FA cterm=NONE           gui=NONE
     hi Tag               ctermbg=NONE ctermfg=220  guibg=NONE    guifg=#FFC620 cterm=NONE           gui=NONE
     hi Todo              ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=reverse        gui=reverse
-    hi Type              ctermbg=NONE ctermfg=222  guibg=NONE    guifg=#F0C674 cterm=underline      gui=underline
-    hi Underlined        ctermbg=NONE ctermfg=173  guibg=NONE    guifg=#DE935F cterm=underline      gui=underline
+    hi Type              ctermbg=NONE ctermfg=222  guibg=NONE    guifg=#F0C674 cterm=NONE      gui=NONE
+    hi Underlined        ctermbg=NONE ctermfg=173  guibg=NONE    guifg=#DE935F cterm=NONE      gui=NONE
 
     hi LineNr            ctermbg=234  ctermfg=242  guibg=#1C1C1C guifg=#6C6C6C cterm=NONE           gui=NONE
     hi NonText           ctermbg=NONE ctermfg=152  guibg=NONE    guifg=#BFD7DB cterm=NONE           gui=NONE
@@ -104,7 +104,7 @@ if &t_Co >= 256 || has('gui_running')
     hi StatusLineNC      ctermbg=32   ctermfg=152  guibg=#277BD3 guifg=#BFD7DB cterm=NONE           gui=NONE
 
     hi Visual            ctermbg=235  ctermfg=NONE guibg=#403D3D guifg=NONE    cterm=NONE           gui=NONE
-    hi VisualNOS         ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
+    hi VisualNOS         ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE      gui=NONE
 
     hi FoldColumn        ctermbg=NONE ctermfg=59   guibg=NONE    guifg=#373B41 cterm=NONE           gui=NONE
     hi Folded            ctermbg=NONE ctermfg=59   guibg=NONE    guifg=#373B41 cterm=NONE           gui=NONE
@@ -125,7 +125,7 @@ if &t_Co >= 256 || has('gui_running')
     hi Search            ctermbg=222  ctermfg=16   guibg=#F0C674 guifg=#191B1F cterm=NONE           gui=NONE
 
     hi Directory         ctermbg=NONE ctermfg=173  guibg=NONE    guifg=#DE935F cterm=NONE           gui=NONE
-    hi MatchParen        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
+    hi MatchParen        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE      gui=NONE
 
     hi SpellBad          ctermbg=NONE ctermfg=166  guibg=NONE    guifg=#D3422E cterm=undercurl      gui=undercurl         guisp=#D3422E
     hi SpellCap          ctermbg=NONE ctermfg=68   guibg=NONE    guifg=#3299CC cterm=undercurl      gui=undercurl         guisp=#3299CC
